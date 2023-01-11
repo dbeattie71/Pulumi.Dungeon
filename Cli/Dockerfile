@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/runtime-deps:6.0.0-focal
+FROM mcr.microsoft.com/dotnet/runtime-deps:6.0.13-focal
 
 # Install packages
 RUN apt-get update \
